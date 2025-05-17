@@ -14,7 +14,7 @@ export class App extends React.Component {
   }
 
   componentWillUnmount(): void {
-    document.removeEventListener('keydown', this.handleKeyUp);
+    document.removeEventListener('keyup', this.handleKeyUp);
   }
 
   render(): React.ReactNode {
